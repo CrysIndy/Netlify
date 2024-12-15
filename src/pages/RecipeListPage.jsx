@@ -31,7 +31,7 @@ export const RecipeListPage = ({recipes, onSelectRecipe}) => {
 				flexDir={{base: "column", sm: "row"}}
 				color="gray.300"
 			>
-				<Heading p="1rem">Winc Recipe Finder</Heading>
+				<Heading p="1rem">Winc Recipe Finder updated</Heading>
 				<RecipeSearch onSearch={handleSearch} />
 			</Center>
 
